@@ -1261,6 +1261,11 @@ footer {
         width: 100%;
         padding: 13px;
     }
+
+    .hero-info {
+        max-width: 90%;
+        margin: 2rem auto; 
+  }
 }
 
 
