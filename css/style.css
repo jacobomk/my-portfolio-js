@@ -287,8 +287,9 @@ section {
 }
 
 .hero-info {
-    margin-top: 3rem;
-    /*margin-right: 18rem;*/
+  max-width: 80%;
+  margin: 3rem auto;
+  text-align: center;
 }
 
 .hero-info h3 {
