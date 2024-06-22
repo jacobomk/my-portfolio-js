@@ -1202,6 +1202,11 @@ footer {
         font-size: .8rem;
     }
 
+    .nav-bar {
+        height: 40px; 
+        padding: 10px; /* he cambiado esto */
+      }
+
 }
 
 @media(max-width:530px) {
