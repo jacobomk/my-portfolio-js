@@ -288,8 +288,10 @@ section {
 
 .hero-info {
   max-width: 80%;
-  margin: 3rem auto;
+  margin: 0 auto;
+  padding: 0;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .hero-info h3 {
