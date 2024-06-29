@@ -1098,25 +1098,23 @@ footer {
 
 /*======================= BrakPoints ============================ */
 
-@media(max-width:1200px) {
+@media (max-width: 1200px) {
     html {
         font-size: 95%;
     }
 }
 
-@media(max-width:991px) {
-    header,section,footer{
+@media (max-width: 991px) {
+    header, section, footer {
         padding-left: 3%;
         padding-right: 3%;
     }
 
-    .home,
-    .portfolio-box {
+    .home, .portfolio-box {
         flex-direction: column-reverse;
     }
 
-    .about,
-    .contactSkills {
+    .about, .contactSkills {
         flex-direction: column;
     }
 
@@ -1131,6 +1129,7 @@ footer {
     .portfolio-img img {
         width: 100%;
         height: 100%;
+        object-fit: cover; /* Asegura que las imágenes no se distorsionen */
     }
 
     .portfolio-gallery {
@@ -1142,24 +1141,25 @@ footer {
     }
 }
 
-@media(max-width:768px) {
-    .proposal{
+@media (max-width: 768px) {
+    .proposal {
         display: none;
     }
-    .menu-icon .bar,.menu-icon::after,.menu-icon::before{
+
+    .menu-icon .bar, .menu-icon::after, .menu-icon::before {
         display: block;
     }
 
     ul.navlist {
         position: absolute;
         top: -1000px;
-        transition: all .3s ease;
+        transition: all 0.3s ease;
         width: 100%;
         text-align: center;
         display: block;
         background: var(--gradient-white-bg);
         left: 0;
-        border-top: 2px solid rgba(248, 202, 202, .7);
+        border-top: 2px solid rgba(248, 202, 202, 0.7);
     }
 
     ul.navlist a {
@@ -1180,7 +1180,7 @@ footer {
         background: rgba(0, 0, 0, 0.5);
         z-index: 8;
         opacity: 0;
-        transform: .3s;
+        transition: opacity 0.3s;
         pointer-events: none;
     }
 
@@ -1199,55 +1199,60 @@ footer {
 
     .fillter-buttons button {
         padding: 10px;
-        font-size: .8rem;
+        font-size: 0.8rem;
     }
-
-    .nav-bar {
-        height: 40px; 
-        padding: 10px; /* he cambiado esto */
-      }
-
 }
 
-@media(max-width:530px) {
-    html{
+@media (max-width: 530px) {
+    html {
         font-size: 80%;
     }
-    section{
+
+    section {
         padding: 50px 3%;
     }
-    .contact-info form .input-box{
+
+    .contact-info form .input-box {
         display: block;
     }
+
     .input-box input {
         width: 100%;
     }
-    .rotate-text{
+
+    .rotate-text {
         display: none;
     }
-    .img-hero img{
+
+    .img-hero img {
         width: 100%;
     }
-    .text-animate{
+
+    .text-animate {
         width: 23.8rem;
     }
-    .btn-box{
+
+    .btn-box {
         width: 266px;
         margin-bottom: 3rem;
     }
-    .about-btn button{
+
+    .about-btn button {
         padding: 10px 15px;
     }
-    .fillter-buttons{
+
+    .fillter-buttons {
         display: grid;
         grid-gap: 1rem;
     }
-    .fillter-buttons button{
+
+    .fillter-buttons button {
         width: 100%;
         padding: 13px;
     }
+
     .hero-info {
-        max-width: 90%; /* ajusto el width para pantallas pequeñas */
-        margin: 2rem auto; 
-      }
+        max-width: 90%; /* Ajusto el width para pantallas pequeñas */
+        margin: 2rem auto;
+    }
 }
