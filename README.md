@@ -1,5 +1,5 @@
-## Descripción 🏝️
-This is my portfolio created in html5 css3 and JavaScript, I hope you like it!
+## Description 🏝️
+**Passionate about creating clean, functional, and scalable digital experiences. 🚀**
 
 ## Autor ✒️
 **Jacobo Monrabal Koninckx**
@@ -13,4 +13,4 @@ This is my portfolio created in html5 css3 and JavaScript, I hope you like it!
 E-mail: jacobomonrabal@gmail.com
 
 <br><br>
-![portfolio_jmk](https://github.com/jacobomk/my-portfolio-js/assets/118301551/d998a59a-993b-4e66-a67f-e0b2d5af5829)
+<img width="1557" height="672" alt="porfolio_jmk" src="https://github.com/user-attachments/assets/fe3635f6-6c9e-410c-8639-7e81f9b4c546" />
