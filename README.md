@@ -5,6 +5,10 @@
 **Jacobo Monrabal Koninckx**
 
 * [Linkedin](https://www.linkedin.com/in/jacobomk)
+* [Jobs.ch](https://www.jobs.ch)
+* [indeed.com](https://www.indeed.com)
+* [infojobs.net](https://infojobs.net)
+* [jobtoday.com](https://jobtoday.com)
 
 ## See live example 👀
 [LINKGITHUBPAGES](https://jacobomk.github.io/my-portfolio-js)
